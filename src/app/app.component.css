@@ -1,0 +1,28 @@
+:host{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    transform: translate(0,75%);
+    border: 3px solid black;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.wrapper p {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 16px 0
+}
+
+.wrapper input {
+    padding: 12px;
+    width: 50%;
+    margin: 15px 0;
+}
